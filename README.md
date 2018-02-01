@@ -73,3 +73,11 @@ editor:
       typo3image:
         allowedExtensions: "jpg,jpeg,png"
 ```
+
+### Using Enlarge on Click in TYPO3 8.7
+
+It is neccesary to add these line to the TypoScript Setup to get clickenlarge work:
+
+```
+lib.contentElement.settings.media.popup.enable = 1
+```
